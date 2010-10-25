@@ -7,7 +7,7 @@ package {
 	public class Main extends Sprite {
 		public function Main() {
 			var circle:Sprite = new Sprite();
-			circle.graphics.beginFill(0xFF0000);
+			circle.graphics.beginFill(0x333333);
 			circle.graphics.drawCircle(50,50,40);
 			circle.graphics.endFill();
 			addChild(circle);
